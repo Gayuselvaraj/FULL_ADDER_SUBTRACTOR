@@ -69,6 +69,7 @@ Developed by: Gayathri S
 RegisterNumber: 24900444
 
 ```
+module fa(a,b,cin,sum,carry):
 input a,b,cin;
 output sum,carry;
 assign sum=( (a ^ b)^cin);
