@@ -49,27 +49,63 @@ Full subractor:
 
 **Procedure**
 
-Write the detailed procedure here
+
+1.Type the program in Quartus software.
+
+2.Compile and run the program.
+
+3.Generate the RTL schematic and save the logic diagram.
+
+4.Create nodes for inputs and outputs to generate the timing diagram.
+
+5.For different input combinations generate the timing diagram.
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+
+Developed by: Gayathri S 
+
+RegisterNumber: 24900444
+
+```
+input a,b,cin;
+output sum,carry;
+assign sum=( (a ^ b)^cin);
+assign carry= ( (a & b)| ( cin &(a ^ b )));
+endmodule
+
+module fs(a,b,bin,difference,borrow);
+input a,b,bin;
+output difference,borrow;
+assign difference= ( (a ^ b)^bin);
+assign borrow= ( ( ~a & b)| ( bin & (~(a ^ b ))));
+endmodule
+```
 
 **RTL Schematic**
+
 Full adder: 
+
 ![WhatsApp Image 2024-12-09 at 07 14 47_4ddaf5c1](https://github.com/user-attachments/assets/4ff53f94-4ac7-49b8-b3f7-06d9c011ff4a)
 
 Full subractor:
-![WhatsApp Image 2024-12-09 at 07 14 49_b0f2f9c1](https://github.com/user-attachments/assets/a05f28aa-2488-4731-b0bf-50d2d0301be1)
 
+
+![393247469-371eb82f-6369-48ee-9fa9-b6d2c9a94d7f](https://github.com/user-attachments/assets/2f0a1bea-507d-4481-b6cf-8a7a0cb751d5)
 
 **Output Timing Waveform**
+
 Full adder:
-![WhatsApp Image 2024-12-09 at 07 14 45_9352da50](https://github.com/user-attachments/assets/9f248d42-2b22-4d16-b32f-1562f3fa36d6)
+
+![393247468-39cbdaa9-7e4f-4c93-b207-3c42cb800bdc](https://github.com/user-attachments/assets/abe6df4c-b4f0-4ab0-aed2-839f8d8cae29)
+
 
 Full subractor:
-![WhatsApp Image 2024-12-09 at 07 14 48_3b257d37](https://github.com/user-attachments/assets/dc618b0f-7752-4a80-b5ef-21e1fe0d80bc)
+
+![393247470-f213dcc6-ddc8-4d99-8da3-d0ea3751b715](https://github.com/user-attachments/assets/8d8b2367-a3d8-44fa-9a0c-43c6c0d75eb1)
+
+
 
 **Result:**
 
