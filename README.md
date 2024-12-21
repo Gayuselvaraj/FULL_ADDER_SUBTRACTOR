@@ -41,7 +41,7 @@ Full adder:
 
 ![WhatsApp Image 2024-12-09 at 06 42 56_245deb09](https://github.com/user-attachments/assets/51d3e627-a6ee-4abb-b983-4005e12d580b)
 
-Full subractor:
+Full subtractor:
 
 ![WhatsApp Image 2024-12-09 at 06 43 28_91139540](https://github.com/user-attachments/assets/a0523ea0-4539-40bd-8df2-77d01183d7e7)
 
