@@ -97,12 +97,12 @@ Full subractor:
 
 **Output Timing Waveform**
 
-Full adder:
+**Full adder**
 
 ![393247468-39cbdaa9-7e4f-4c93-b207-3c42cb800bdc](https://github.com/user-attachments/assets/abe6df4c-b4f0-4ab0-aed2-839f8d8cae29)
 
 
-Full subractor:
+**Full subtractor**
 
 ![393247470-f213dcc6-ddc8-4d99-8da3-d0ea3751b715](https://github.com/user-attachments/assets/8d8b2367-a3d8-44fa-9a0c-43c6c0d75eb1)
 
