@@ -90,7 +90,7 @@ Full adder:
 
 ![WhatsApp Image 2024-12-09 at 07 14 47_4ddaf5c1](https://github.com/user-attachments/assets/4ff53f94-4ac7-49b8-b3f7-06d9c011ff4a)
 
-Full subractor:
+Full subtractor:
 
 
 ![393247469-371eb82f-6369-48ee-9fa9-b6d2c9a94d7f](https://github.com/user-attachments/assets/2f0a1bea-507d-4481-b6cf-8a7a0cb751d5)
